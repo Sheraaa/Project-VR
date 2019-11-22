@@ -8,6 +8,8 @@ You can read each profile next to each dolls and match it with the dolls you wan
 
 Hope you enjoy our game!
 
+Teachers: Léa Rogliano (story) François Zajéga (VR): https://vrit3.itch.io/
+
 Developer: Chehrazad Ouazzani & Yiwei Chen
 artist 3D: Aurore Pauwels & Yiwei Chen
 story: Ariane Sohy & Aurore Pauwels
