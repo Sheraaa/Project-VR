@@ -36,8 +36,6 @@ public class Person : MonoBehaviour {
         }
     }
 
-    
-
     public int Age {
         get {
             return _age;

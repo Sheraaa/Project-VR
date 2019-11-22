@@ -4,6 +4,7 @@ using UnityEngine;
 
 
 public class rotationCam : MonoBehaviour
+    //Cette classe permet de garder le profil face à la caméra
 {
 
     public GameObject cam;
@@ -12,8 +13,7 @@ public class rotationCam : MonoBehaviour
     main perso;
     Person character;
     
-
-    // Start is called before the first frame update
+    
     void Start()
     {
     TextMesh t = FindObjectOfType<TextMesh>();
@@ -22,8 +22,7 @@ public class rotationCam : MonoBehaviour
       //  t.text = perso.p0.name;
        // t.text = character.name;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         Quaternion q=new Quaternion();

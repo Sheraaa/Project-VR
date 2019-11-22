@@ -14,8 +14,7 @@ public class main : MonoBehaviour {
 
 
     public void CheckMatch() {
-        // SI PAS ATTRAPER NE RIEN FAIRE ET ATTENDRE QUE LE JOUEUR ATTRAPE UNE POUPEE AVEC LA MANETTE
-        
+        //Si pas attraper > ne rien faire et attendre que le joueur attrape une poupée pour faire le match
         if (p0 == null || p1 == null) {
             return;
         }
@@ -43,7 +42,6 @@ public class main : MonoBehaviour {
         }
         if (p0 != null || p1 != null) {
             //Match afficher Win
-            //GUI.Label(new Rect(250, 90, 250, 100), "It's a match");
             sound.Play();  //MATCH
         }
     }
